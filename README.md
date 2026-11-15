@@ -2,7 +2,7 @@
 
 A personal engineering and computer vision project that mirrors human hand movements in real time using a 3D-printed mechanical hand powered by 15 independent servo motors.
 
-## 📖 Overview
+## Overview
 
 Combining artificial intelligence, computer vision, and mechanical engineering, this project tracks hand movements through a standard webcam and translates them into physical motion. Using **OpenCV** and **MediaPipe Tasks (`HandLandmarker`)**, the software captures real-time spatial coordinates for all 21 hand landmarks frame-by-frame. By applying vector geometry and trigonometry to these landmarks, the system calculates the exact joint angles needed to independently drive 15 servos across all five fingers on the 3D-printed hand.
 
